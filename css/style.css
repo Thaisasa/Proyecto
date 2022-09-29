@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+
+nav{
+    background: #2B2D42;
+}
+
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 15px 15px;
+    color: #8D99AE;
+}
+
+nav ul li a:hover{
+    background: #EDF2F4;
+    color: #2B2D42;
+}
+
+.menuActive{
+    background: #D90429;
+    color: #EDF2F4;
+}
+
+div{
+    background: #8D99AE;
+    width: 90% auto;
+}
+
+div h1{
+    color: #2B2D42;
+    padding-top: 10px;
+}
+
+div section{
+    padding: 10px;
+    margin-left: 10px;
+}
